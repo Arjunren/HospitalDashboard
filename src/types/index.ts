@@ -1,0 +1,1 @@
+export type Acuity="Critical"|"Urgent"|"Stable";export type Patient={id:number,name:string,initials:string,age:number,unit:string,room:string,diagnosis:string,acuity:Acuity,updated:string};export type Appointment={id:number,time:string,patient:string,clinician:string,type:string,status:"Arrived"|"Confirmed"|"Pending"};
